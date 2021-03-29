@@ -83,7 +83,7 @@ h1{
   text-transform: uppercase;
   font-weight: 400;
   font-size: 18px;
-  color: #16a085;
+  color: #1900ff;
 }
 
 /* INFO-ABOUT */
@@ -118,7 +118,7 @@ ul.styled li{
 }
 
 /* ******************************************************************* */
-/* FOOTER                                                  */
+/* FOOTER                                                              */
 /* ******************************************************************* */
 
 footer{
@@ -130,4 +130,6 @@ footer{
   color: #fff;
 }
 
-
+#con{
+  text-align: left;
+}

@@ -18,6 +18,7 @@ body{
 #nav-menu{
     background-color: #474f61;
     height: 100px;
+    
 }
 
 ul{
@@ -58,19 +59,22 @@ ul{
 /* ******************************************************************* */
 
 header{
-    background: url("images/cars2.jpg");
+    background: url("images/cars.jpg");
     text-align: center;
     background-size: cover;
+    background-position: auto;
     background-attachment: fixed;
-    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    color: rgb(252, 252, 252);
     height:400px;
-   
+   margin-bottom: 20px;
 }
 
 header h1{
     letter-spacing: 0.1em;
     font-size: 44px;
-    
+    margin: auto;
+    padding-top: 1em;
 }
 
 #content{
@@ -98,7 +102,7 @@ header h1{
     text-transform: uppercase;
     font-weight: 400;
     font-size: 18px;
-    color: #16a085;
+    color: #2904f8;
   }
   
   /* INFO-ABOUT */
