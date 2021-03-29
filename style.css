@@ -1,0 +1,133 @@
+/* ******************************************************************* */
+/* BODY                                                                */
+/* ******************************************************************* */
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: whitesmoke;
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+}
+
+/* ******************************************************************* */
+/* NAV MENU                                                            */
+/* ******************************************************************* */
+
+#nav-menu{
+    background-color: #474f61;
+    height: 100px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+#nav-menu li{
+    display: inline-block;
+}
+
+#nav-menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 100px;
+    color: white;
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#nav-menu a:hover{
+    background-color: #727f9c;
+}
+
+.active{
+    background-color: rgb(156, 28, 28);
+    color: black;
+    
+}
+
+/* ******************************************************************* */
+/* HEADER                                                               */
+/* ******************************************************************* */
+
+#header{
+    padding: 60px 0px 40px 0;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+}
+
+/* ******************************************************************* */
+/* Comany Info                                                  */
+/* ******************************************************************* */
+
+#info{
+  min-height: 400px;
+  padding: 20px;
+}
+
+#info h2{
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  color: #16a085;
+}
+
+/* INFO-ABOUT */
+
+#info-about{
+  float: left;
+  width: 70%;
+}
+
+#info img{
+ width: 80%;
+}
+
+/* FEATURED CARS SIDE*/
+#cars{
+  float: right;
+  width: 25%;
+}
+
+/* LIST */
+ul.styled{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+ul.styled li{
+  border-top: solid 1px #e5e5e5;
+  border-bottom: solid 1px #e5e5e5;
+  padding: 14px 0px;
+}
+
+/* ******************************************************************* */
+/* FOOTER                                                  */
+/* ******************************************************************* */
+
+footer{
+  clear: both;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: blue;
+  color: #fff;
+}
+
+
